@@ -1,4 +1,4 @@
 Calabash-GUI
 ============
 
-A Graphical User Interface For Running Calabash Tests
+A Graphical User Interface For Running Calabash Automated Tests
