@@ -12,9 +12,9 @@ Calabash GUI is a graphical user interface for the Calabash automated testing fr
 
 6. Choose whether to have the app restart or not between scenarios. For example if you are running progression scenarios that continue off of where another scenario left off you would select 'No Restart After Scenario'.
 
-**Note: Preventing restarts between scenarios requires modified launch.rb and app_life_cycle_hooks.rb for Android and iOS respectively **
+  **Note: Preventing restarts between scenarios requires modified launch.rb and app_life_cycle_hooks.rb for Android and iOS respectively**
 
-      **If 'No Restart' is selected you must already have the simulator and app open, otherwise you must have the simulator closed.**
+  **If 'No Restart' is selected you must already have the simulator and app open, otherwise you must have the simulator closed**
 
 7. **(optional)** To save the test, click the 'Save Current Test' button and choose a name and location.
 

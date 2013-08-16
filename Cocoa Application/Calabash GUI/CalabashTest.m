@@ -118,8 +118,7 @@
     CalabashAppDelegate *appDelegate = [[NSApplication sharedApplication]delegate];
     
     NSString *resultsStringPath = _calabashPath;
-    resultsStringPath = [_calabashPath stringByAppendingString:@"/"];
-    resultsStringPath = [[_calabashPath stringByAppendingString:_name] stringByAppendingString:@"_Test_Report.html"];
+    resultsStringPath = [[[_calabashPath stringByAppendingString:@"/"] stringByAppendingString:_name] stringByAppendingString:@"_Report.html"];
 
     NSString *resultsPath = [@"file://localhost" stringByAppendingString:resultsStringPath];
     resultsPath = [resultsPath stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -136,14 +135,12 @@
  
 -(void) notifiedForStdError: (NSNotification *) notification
 {
-    NSLog(@"==============================================================================");
     NSLog(@"CALABASH TEST ERROR:");
     
     NSFileHandle *outFile = [notification object];
     NSData *data = [outFile availableData];
     NSString *outString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
     NSLog(@"%@",outString);
-    NSLog(@"==============================================================================");
     
     CalabashAppDelegate *appDelegate = [[NSApplication sharedApplication]delegate];    
     [appDelegate.consoleWindow setString:[appDelegate.consoleWindow.string stringByAppendingString:outString]];
@@ -201,7 +198,7 @@
         command = [command stringByAppendingString:_tags];
     }
     
-    NSString* reportName = [_name stringByAppendingString:@"_Test_Report.html"];
+    NSString* reportName = [_name stringByAppendingString:@"_Report.html"];
     command = [[command stringByAppendingString:@" --format pretty --format html --out "] stringByAppendingString:reportName];
     
     command = [[command stringByAppendingString:@" #"] stringByAppendingString:_calabashPath];

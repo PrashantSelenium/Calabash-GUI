@@ -10,7 +10,6 @@
 #import "CalabashTest.h"
 #import "UserEnvironment.h"
 #import "UserEnvironment.h"
-#import "CalabashTestManager.h"
 #import "ConsoleOutputTextView.h"
 #import <WebKit/WebKit.h>
 

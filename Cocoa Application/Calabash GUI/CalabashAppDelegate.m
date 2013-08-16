@@ -280,9 +280,10 @@
 -(CalabashTest*) getCalabashTestAtPath:(NSString*)path
 {
     CalabashTest* newTest = [[CalabashTest alloc]init];
+    newTest.shellPath = path;
     
     // Get the contents of the shell file
-    NSData* shellFileData = [[NSData alloc] initWithContentsOfFile:_calabashTest.shellPath];
+    NSData* shellFileData = [[NSData alloc] initWithContentsOfFile:newTest.shellPath];
     NSString* shellFileString = [[NSString alloc]initWithData:shellFileData encoding:NSUTF8StringEncoding];
     
     NSRange screenshotPathRange = [shellFileString rangeOfString:@"SCREENSHOT_PATH=/"];

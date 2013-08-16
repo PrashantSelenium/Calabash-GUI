@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25468E5117A2BA1E00ACFF78 /* CalabashTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */; };
 		25468E5417A2BB4F00ACFF78 /* ConsoleOutputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */; };
 		25739BFA1772115700CE9216 /* CalabashTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25739BF91772115700CE9216 /* CalabashTest.m */; };
 		25739BFE1773AC2900CE9216 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25739BFD1773AC2900CE9216 /* WebKit.framework */; };
@@ -18,12 +17,9 @@
 		25DFD0421760D27700B57AA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25DFD0401760D27700B57AA5 /* Credits.rtf */; };
 		25DFD0451760D27700B57AA5 /* CalabashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DFD0441760D27700B57AA5 /* CalabashAppDelegate.m */; };
 		25DFD0481760D27700B57AA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DFD0461760D27700B57AA5 /* MainMenu.xib */; };
-		25F7453E17BD78E500EF8B96 /* CalabashTestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25468E4F17A2BA1E00ACFF78 /* CalabashTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashTestManager.h; sourceTree = "<group>"; };
-		25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashTestManager.m; sourceTree = "<group>"; };
 		25468E5217A2BB4F00ACFF78 /* ConsoleOutputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleOutputTextView.h; sourceTree = "<group>"; };
 		25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleOutputTextView.m; sourceTree = "<group>"; };
 		25468E5517A2C0B000ACFF78 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,8 +41,6 @@
 		25DFD0431760D27700B57AA5 /* CalabashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalabashAppDelegate.h; sourceTree = "<group>"; };
 		25DFD0441760D27700B57AA5 /* CalabashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalabashAppDelegate.m; sourceTree = "<group>"; };
 		25DFD0471760D27700B57AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		25F7453C17BD78E500EF8B96 /* CalabashTestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashTestLoader.h; sourceTree = "<group>"; };
-		25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashTestLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +104,6 @@
 				2586677E179ED96A00DB41F1 /* UserEnvironment.m */,
 				25739BF81772115700CE9216 /* CalabashTest.h */,
 				25739BF91772115700CE9216 /* CalabashTest.m */,
-				25468E4F17A2BA1E00ACFF78 /* CalabashTestManager.h */,
-				25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */,
-				25F7453C17BD78E500EF8B96 /* CalabashTestLoader.h */,
-				25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */,
 				25468E5217A2BB4F00ACFF78 /* ConsoleOutputTextView.h */,
 				25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */,
 				25DFD0381760D27700B57AA5 /* Supporting Files */,
@@ -202,9 +192,7 @@
 				25DFD0451760D27700B57AA5 /* CalabashAppDelegate.m in Sources */,
 				25739BFA1772115700CE9216 /* CalabashTest.m in Sources */,
 				2586677F179ED96A00DB41F1 /* UserEnvironment.m in Sources */,
-				25468E5117A2BA1E00ACFF78 /* CalabashTestManager.m in Sources */,
 				25468E5417A2BB4F00ACFF78 /* ConsoleOutputTextView.m in Sources */,
-				25F7453E17BD78E500EF8B96 /* CalabashTestLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

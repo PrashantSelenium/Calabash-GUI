@@ -79,14 +79,12 @@
 // Print the error and remove observer
 -(void) notifiedForStdError:(NSNotification *)notification
 {
-    NSLog(@"==============================================================================");
     NSLog(@"USER ENVIRONMENT ERROR:");
     
     NSFileHandle *outFile = [notification object];
     NSData *data = [outFile availableData];
     NSString *outString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
     NSLog(@"%@",outString);
-    NSLog(@"==============================================================================");
     
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NSFileHandleDataAvailableNotification object:[notification object]];    
 }
