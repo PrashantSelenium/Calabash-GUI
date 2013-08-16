@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CalabashAppDelegate saveTestAction:]:CalabashAppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashTest launchTestWithProcess:withArguments:]:CalabashTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[_task arguments]">
+            </PersistentString>
+            <PersistentString
+               value = "NSHomeDirectory();">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashTest createShellFileAtPath:WithName:]:CalabashTest.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserEnvironment getUserEnvironment]:UserEnvironment.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_pathVariable">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashTest notifiedForStdOutput:]:CalabashTest.m">
+      </ContextState>
+      <ContextState
+         contextName = "__32-[CalabashAppDelegate loadTest:]_block_invoke:CalabashAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_calabashTest.name">
+            </PersistentString>
+            <PersistentString
+               value = "_calabashTest.shellPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[CalabashAppDelegate saveTestAction:]_block_invoke:CalabashAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_calabashTest.name">
+            </PersistentString>
+            <PersistentString
+               value = "_calabashTest">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashTest launchTestWithProcess:withPathVariable:]:CalabashTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_shellPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashAppDelegate onOSChange:]:CalabashAppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashTest createShellFileAtPath:]:CalabashTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CalabashAppDelegate stringByLaunchingPath:]:CalabashAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSProcessInfo processInfo] environment]">
+            </PersistentString>
+            <PersistentString
+               value = "[task environment]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalabashAppDelegate runTest:]:CalabashAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[task environment]">
+            </PersistentString>
+            <PersistentString
+               value = "[task currentDirectoryPath]">
+            </PersistentString>
+            <PersistentString
+               value = "[task arguments]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25468E5117A2BA1E00ACFF78 /* CalabashTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */; };
+		25468E5417A2BB4F00ACFF78 /* ConsoleOutputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */; };
+		25739BFA1772115700CE9216 /* CalabashTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25739BF91772115700CE9216 /* CalabashTest.m */; };
+		25739BFE1773AC2900CE9216 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25739BFD1773AC2900CE9216 /* WebKit.framework */; };
+		2586677F179ED96A00DB41F1 /* UserEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586677E179ED96A00DB41F1 /* UserEnvironment.m */; };
+		25DFD0321760D27700B57AA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFD0311760D27700B57AA5 /* Cocoa.framework */; };
+		25DFD03C1760D27700B57AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DFD03A1760D27700B57AA5 /* InfoPlist.strings */; };
+		25DFD03E1760D27700B57AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DFD03D1760D27700B57AA5 /* main.m */; };
+		25DFD0421760D27700B57AA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25DFD0401760D27700B57AA5 /* Credits.rtf */; };
+		25DFD0451760D27700B57AA5 /* CalabashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DFD0441760D27700B57AA5 /* CalabashAppDelegate.m */; };
+		25DFD0481760D27700B57AA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DFD0461760D27700B57AA5 /* MainMenu.xib */; };
+		25F7453E17BD78E500EF8B96 /* CalabashTestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25468E4F17A2BA1E00ACFF78 /* CalabashTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashTestManager.h; sourceTree = "<group>"; };
+		25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashTestManager.m; sourceTree = "<group>"; };
+		25468E5217A2BB4F00ACFF78 /* ConsoleOutputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleOutputTextView.h; sourceTree = "<group>"; };
+		25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleOutputTextView.m; sourceTree = "<group>"; };
+		25468E5517A2C0B000ACFF78 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		25739BF81772115700CE9216 /* CalabashTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashTest.h; sourceTree = "<group>"; };
+		25739BF91772115700CE9216 /* CalabashTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashTest.m; sourceTree = "<group>"; };
+		25739BFD1773AC2900CE9216 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2586677D179ED96A00DB41F1 /* UserEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEnvironment.h; sourceTree = "<group>"; };
+		2586677E179ED96A00DB41F1 /* UserEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEnvironment.m; sourceTree = "<group>"; };
+		25DFD02E1760D27700B57AA5 /* Calabash GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calabash GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DFD0311760D27700B57AA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25DFD0341760D27700B57AA5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25DFD0351760D27700B57AA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25DFD0361760D27700B57AA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25DFD0391760D27700B57AA5 /* Calabash GUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calabash GUI-Info.plist"; sourceTree = "<group>"; };
+		25DFD03B1760D27700B57AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DFD03D1760D27700B57AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DFD03F1760D27700B57AA5 /* Calabash GUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calabash GUI-Prefix.pch"; sourceTree = "<group>"; };
+		25DFD0411760D27700B57AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25DFD0431760D27700B57AA5 /* CalabashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalabashAppDelegate.h; sourceTree = "<group>"; };
+		25DFD0441760D27700B57AA5 /* CalabashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalabashAppDelegate.m; sourceTree = "<group>"; };
+		25DFD0471760D27700B57AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25F7453C17BD78E500EF8B96 /* CalabashTestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalabashTestLoader.h; sourceTree = "<group>"; };
+		25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalabashTestLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DFD02B1760D27700B57AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25739BFE1773AC2900CE9216 /* WebKit.framework in Frameworks */,
+				25DFD0321760D27700B57AA5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DFD0251760D27700B57AA5 = {
+			isa = PBXGroup;
+			children = (
+				25468E5517A2C0B000ACFF78 /* InterfaceBuilderKit.framework */,
+				25739BFD1773AC2900CE9216 /* WebKit.framework */,
+				25DFD0371760D27700B57AA5 /* Calabash GUI */,
+				25DFD0301760D27700B57AA5 /* Frameworks */,
+				25DFD02F1760D27700B57AA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DFD02F1760D27700B57AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DFD02E1760D27700B57AA5 /* Calabash GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DFD0301760D27700B57AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DFD0311760D27700B57AA5 /* Cocoa.framework */,
+				25DFD0331760D27700B57AA5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25DFD0331760D27700B57AA5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DFD0341760D27700B57AA5 /* AppKit.framework */,
+				25DFD0351760D27700B57AA5 /* CoreData.framework */,
+				25DFD0361760D27700B57AA5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25DFD0371760D27700B57AA5 /* Calabash GUI */ = {
+			isa = PBXGroup;
+			children = (
+				25DFD0461760D27700B57AA5 /* MainMenu.xib */,
+				25DFD0431760D27700B57AA5 /* CalabashAppDelegate.h */,
+				25DFD0441760D27700B57AA5 /* CalabashAppDelegate.m */,
+				2586677D179ED96A00DB41F1 /* UserEnvironment.h */,
+				2586677E179ED96A00DB41F1 /* UserEnvironment.m */,
+				25739BF81772115700CE9216 /* CalabashTest.h */,
+				25739BF91772115700CE9216 /* CalabashTest.m */,
+				25468E4F17A2BA1E00ACFF78 /* CalabashTestManager.h */,
+				25468E5017A2BA1E00ACFF78 /* CalabashTestManager.m */,
+				25F7453C17BD78E500EF8B96 /* CalabashTestLoader.h */,
+				25F7453D17BD78E500EF8B96 /* CalabashTestLoader.m */,
+				25468E5217A2BB4F00ACFF78 /* ConsoleOutputTextView.h */,
+				25468E5317A2BB4F00ACFF78 /* ConsoleOutputTextView.m */,
+				25DFD0381760D27700B57AA5 /* Supporting Files */,
+			);
+			path = "Calabash GUI";
+			sourceTree = "<group>";
+		};
+		25DFD0381760D27700B57AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DFD0391760D27700B57AA5 /* Calabash GUI-Info.plist */,
+				25DFD03A1760D27700B57AA5 /* InfoPlist.strings */,
+				25DFD03D1760D27700B57AA5 /* main.m */,
+				25DFD03F1760D27700B57AA5 /* Calabash GUI-Prefix.pch */,
+				25DFD0401760D27700B57AA5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DFD02D1760D27700B57AA5 /* Calabash GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DFD04B1760D27700B57AA5 /* Build configuration list for PBXNativeTarget "Calabash GUI" */;
+			buildPhases = (
+				25DFD02A1760D27700B57AA5 /* Sources */,
+				25DFD02B1760D27700B57AA5 /* Frameworks */,
+				25DFD02C1760D27700B57AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calabash GUI";
+			productName = "Calabash GUI";
+			productReference = 25DFD02E1760D27700B57AA5 /* Calabash GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DFD0261760D27700B57AA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Calabash;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Solstice Mobile";
+			};
+			buildConfigurationList = 25DFD0291760D27700B57AA5 /* Build configuration list for PBXProject "Calabash GUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25DFD0251760D27700B57AA5;
+			productRefGroup = 25DFD02F1760D27700B57AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DFD02D1760D27700B57AA5 /* Calabash GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DFD02C1760D27700B57AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DFD03C1760D27700B57AA5 /* InfoPlist.strings in Resources */,
+				25DFD0421760D27700B57AA5 /* Credits.rtf in Resources */,
+				25DFD0481760D27700B57AA5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DFD02A1760D27700B57AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DFD03E1760D27700B57AA5 /* main.m in Sources */,
+				25DFD0451760D27700B57AA5 /* CalabashAppDelegate.m in Sources */,
+				25739BFA1772115700CE9216 /* CalabashTest.m in Sources */,
+				2586677F179ED96A00DB41F1 /* UserEnvironment.m in Sources */,
+				25468E5117A2BA1E00ACFF78 /* CalabashTestManager.m in Sources */,
+				25468E5417A2BB4F00ACFF78 /* ConsoleOutputTextView.m in Sources */,
+				25F7453E17BD78E500EF8B96 /* CalabashTestLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25DFD03A1760D27700B57AA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DFD03B1760D27700B57AA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25DFD0401760D27700B57AA5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DFD0411760D27700B57AA5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25DFD0461760D27700B57AA5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DFD0471760D27700B57AA5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DFD0491760D27700B57AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25DFD04A1760D27700B57AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25DFD04C1760D27700B57AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash GUI/Calabash GUI-Prefix.pch";
+				INFOPLIST_FILE = "Calabash GUI/Calabash GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25DFD04D1760D27700B57AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash GUI/Calabash GUI-Prefix.pch";
+				INFOPLIST_FILE = "Calabash GUI/Calabash GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DFD0291760D27700B57AA5 /* Build configuration list for PBXProject "Calabash GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DFD0491760D27700B57AA5 /* Debug */,
+				25DFD04A1760D27700B57AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DFD04B1760D27700B57AA5 /* Build configuration list for PBXNativeTarget "Calabash GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DFD04C1760D27700B57AA5 /* Debug */,
+				25DFD04D1760D27700B57AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DFD0261760D27700B57AA5 /* Project object */;
+}
