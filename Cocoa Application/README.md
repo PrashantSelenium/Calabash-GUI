@@ -14,13 +14,13 @@ Calabash GUI is a graphical user interface for the Calabash automated testing fr
 
   **Note: Preventing restarts between scenarios requires modified launch.rb and app_life_cycle_hooks.rb for Android and iOS respectively**
 
-  **If 'No Restart' is selected you must already have the simulator and app open, otherwise you must have the simulator closed**
+  **If 'No Restart' is selected you must already have the simulator and app open, otherwise (for iOS) you must have the simulator closed**
 
-7. **(optional)** To save the test, click the 'Save Current Test' button and choose a name and location.
+7. **(optional)** To save the test, click the 'Save Current Test' button and choose a name and location **(Note the save and load features have some defects)**.
 
 8.  That's it! Just click the 'Start Test' button
 
       **Don't forget to follow the instructions in step 6 for whether or not to have your simulator open**
 
 ### Loading a Test
-To load a test just click the 'Load Test' button and select a previously saved shell (.sh) file. The only setting that may need to be changes is the 'Calabash Feature Folder' since this is user specific.
+To load a test just click the 'Load Test' button and select a previously saved shell (.sh) file. The only setting that may need to be changes is the 'Calabash Feature Folder' since this is user specific **(Note the save and load features have some defects)**.
